@@ -16,6 +16,7 @@ $ git remote add origin https://github.com/ericlski/GitCommands.git
 ### When adding to repository with changes
 ``` sh
 $ git add .
+$ git add -u # when you have deleted a local file you want to remove from your repo
 $ git commit -m "what has changed"
 $ git push
 # put in username and password
