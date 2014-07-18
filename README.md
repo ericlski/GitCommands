@@ -26,3 +26,17 @@ $ git push
 ``` sh
 $ git remote set-url origin git@github.com:yourUsername/yourReponame.git
 ```
+
+### Working together from perspective of person without main repo
+``` sh
+# fork repo you want to work on
+$ git clone https://github.com/yourUsername/yourReponame.git
+# add changes to the forked repo
+# make a pull request
+```
+
+### Want to remove a file from online github repo but keep it locally
+``` sh
+$ git rm --cached localFileName
+# add localFileName to .gitignore file and then commit these changes
+```
